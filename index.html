@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form id="form">
+        <div>
+            <input type="text" name="display" id="display" disabled>
+            <main>
+                <div>
+                    <button type="button" value="(" onclick="getButtonValue(value)">(</button>
+                    <button type="button" value=")" onclick="getButtonValue(value)">)</button>
+                    <button type="button" value="+" onclick="getButtonValue(value)">+</button>
+                    <button type="button" value="-" onclick="getButtonValue(value)">-</button>
+                </div>
+                <div>
+                    <button type="button" value="7" onclick="getButtonValue(value)">7</button>
+                    <button type="button" value="8" onclick="getButtonValue(value)">8</button>
+                    <button type="button" value="9" onclick="getButtonValue(value)">9</button>
+                    <button type="button" value="*" onclick="getButtonValue(value)">x</button>
+                </div>
+                <div>
+                    <button type="button" value="4" onclick="getButtonValue(value)">4</button>
+                    <button type="button" value="5" onclick="getButtonValue(value)">5</button>
+                    <button type="button" value="6" onclick="getButtonValue(value)">6</button>
+                    <button type="button" value="/" onclick="getButtonValue(value)">/</button>
+                </div>
+                <div>
+                    <button type="button" value="1" onclick="getButtonValue(value)">1</button>
+                    <button type="button" value="2" onclick="getButtonValue(value)">2</button>
+                    <button type="button" value="3" onclick="getButtonValue(value)">3</button>
+                    <button type="button" value="." onclick="getButtonValue(value)">.</button>
+                </div>
+                <div>
+                    <button type="button" id="clearbtn" onclick="clearData()">c</button>
+                    <button type="button" value="0" onclick="getButtonValue(value)">0</button>
+                    <button type="button" id="equalbtn" onclick="result()">=</button>
+                </div>
+            </main>
+        </div>
+    </form>
+</body>
+<script lang="javascript" src="./index.js"></script>
+</html>

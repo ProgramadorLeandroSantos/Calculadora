@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(85, 27, 140);
+}
+#form{
+    display: flex;
+    justify-content: center;
+    border: black 1px groove;
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 300px;
+    max-height: 300px;
+    margin: 100px auto;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.55) 2px 2px 2px 2px;
+    background-color: rgb(165, 165, 165);
+}
+#display{
+    position: relative;
+    top: 30px;
+    width: 210px;
+    height: 40px;
+    box-shadow: inset black 1px 2px 1px 3px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+button{
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.311) 1px 1px 1px 1px;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+#equalbtn{
+    width: 104px;
+}
+#clearbtn{
+    color: red;
+    background-color: rgba(41, 69, 70, 0.859);
+}
+main{
+    position: relative;
+    top: 60px;
+}
