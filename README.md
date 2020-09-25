@@ -1,4 +1,4 @@
-# Calculadora 0
+# Calculadora
   
 ![calculadora](https://github.com/ProgramadorLeandroSantos/Calculadora/blob/master/calculadora.gif)
   
